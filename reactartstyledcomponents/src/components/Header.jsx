@@ -1,9 +1,6 @@
 import { styled } from "styled-components";
 
 import logo from "../assets/logo.png";
-// import './Header.css';
-//css modules
-// import classes from "./Header.module.css";
 
 const StyledHeader = styled.header`
   display: flex;
@@ -50,13 +47,9 @@ const StyledHeader = styled.header`
 
 export default function Header() {
   return (
-    // <header>
     <StyledHeader>
       <img src={logo} alt="A canvas" />
       <h1>ReactArt</h1>
-      {/* <p className="paragraph">A community of artists and art-lovers.</p> */}
-      {/* with help of css modules now we can do it like this */}
-      {/* <p className={classes.paragraph}> */}
       <p>A community of artists and art-lovers.</p>
     </StyledHeader>
   );
